@@ -1,0 +1,55 @@
+# k3p
+
+## Agenda
+
+- Who
+- What
+- When
+- Why
+- How
+
+## Who
+
+- Home Hardware (example)
+- Companies with legacy code they depend on
+- Dev team struggling with adding new functionality
+- Stuck on legacy systems software like Oracle 11g, COBOL, ASP.net, Coldfusion ...
+
+## What
+
+- Serverless open source platform to add new functionality
+- Simply by including a module in existing html front end code and adding a custom tag where the new functionality belongs in the UI
+- Managed instance for the fuzzy front end, demo, POC, prototype, MVP $9.99 per compute hour
+- Free for an inbound link on a public project
+- AI to promote legacy code to serverless $9,999, time and materials for actual migration 
+
+## From MartinFowler.com
+
+[that picture about the microfrontend](READMEImages/bff.png)
+
+## When
+
+- Building k3p open source project over 3 sprints starting today
+- Would like to have merch (usb key) for the managed instance at a talk I am giving Jan 25
+- When someone installs k3p collect an email and follow up with the idea of getting someone to pay to have their legacy app promoted Q1 2025
+
+## Why
+
+- Convergence of Codespaces/Devcontainers, knative and need for laggards to support legacy systems as vendors sunset systems technology
+- Build a Devops by the book serverless platform
+- Struggling consultant hosts with big Cloud bills for servers
+
+## How
+
+- open source bash stage1 script installs stage2 script, ansible playbooks, otel collector and dependencies
+- otel connector to stage2 script as well as email collection and follow up
+- playbooks install knative, microfrontend for connecting a repo and signoz
+- sample repos for microfrontends in popular combinations
+- open source CI/CD wordpress compositor also used for advertising and with email collection
+
+## Thanks
+
+- I am so grateful for your help in getting started with this
+- I think that autonomous teams are an important idea for a number of reasons
+- k3p is a chance for autonomous teams to just code and not have to manage infrastructure
+- k3p is a chance for operations to support autonomous teams with an observable platform that they can run in house or with a cloud provider 
